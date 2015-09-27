@@ -1,0 +1,14 @@
+target  = transpose
+sources = main.c $(target).c
+objects = $(patsubst %.c,%.o,$(sources))
+CC = gcc
+OPTS = -Wall -fopenmp
+
+all: $(objects)
+	$(CC) $(OPTS) -o $(target) $(objects)
+
+transpose.o: transpose.c
+	$(CC) $(OPTS) -c $<
+
+clean:
+	$(RM) $(target) $(objects)
