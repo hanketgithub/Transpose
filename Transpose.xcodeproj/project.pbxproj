@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A678F41BB7DC3F002CD8F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A678EE1BB7DC3F002CD8F4 /* main.c */; settings = {ASSET_TAGS = (); }; };
-		36A678F51BB7DC3F002CD8F4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 36A678EF1BB7DC3F002CD8F4 /* Makefile */; settings = {ASSET_TAGS = (); }; };
-		36A678F61BB7DC3F002CD8F4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 36A678F11BB7DC3F002CD8F4 /* README.md */; settings = {ASSET_TAGS = (); }; };
-		36A678F71BB7DC3F002CD8F4 /* transpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A678F21BB7DC3F002CD8F4 /* transpose.c */; settings = {ASSET_TAGS = (); }; };
+		36E687911C40EECC0050B9E3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36E6878E1C40EECC0050B9E3 /* main.c */; settings = {ASSET_TAGS = (); }; };
+		36E687921C40EECC0050B9E3 /* transpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 36E6878F1C40EECC0050B9E3 /* transpose.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +25,9 @@
 
 /* Begin PBXFileReference section */
 		36A678E41BB7DC2B002CD8F4 /* Transpose */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Transpose; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A678EE1BB7DC3F002CD8F4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		36A678EF1BB7DC3F002CD8F4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		36A678F01BB7DC3F002CD8F4 /* Makefile.omp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.omp; sourceTree = "<group>"; };
-		36A678F11BB7DC3F002CD8F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		36A678F21BB7DC3F002CD8F4 /* transpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transpose.c; sourceTree = "<group>"; };
-		36A678F31BB7DC3F002CD8F4 /* transpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transpose.h; sourceTree = "<group>"; };
+		36E6878E1C40EECC0050B9E3 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = SOURCE_ROOT; };
+		36E6878F1C40EECC0050B9E3 /* transpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transpose.c; sourceTree = SOURCE_ROOT; };
+		36E687901C40EECC0050B9E3 /* transpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transpose.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +60,9 @@
 		36A678E61BB7DC2B002CD8F4 /* Transpose */ = {
 			isa = PBXGroup;
 			children = (
-				36A678EE1BB7DC3F002CD8F4 /* main.c */,
-				36A678EF1BB7DC3F002CD8F4 /* Makefile */,
-				36A678F01BB7DC3F002CD8F4 /* Makefile.omp */,
-				36A678F11BB7DC3F002CD8F4 /* README.md */,
-				36A678F21BB7DC3F002CD8F4 /* transpose.c */,
-				36A678F31BB7DC3F002CD8F4 /* transpose.h */,
+				36E6878E1C40EECC0050B9E3 /* main.c */,
+				36E6878F1C40EECC0050B9E3 /* transpose.c */,
+				36E687901C40EECC0050B9E3 /* transpose.h */,
 			);
 			path = Transpose;
 			sourceTree = "<group>";
@@ -131,10 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A678F61BB7DC3F002CD8F4 /* README.md in Sources */,
-				36A678F51BB7DC3F002CD8F4 /* Makefile in Sources */,
-				36A678F41BB7DC3F002CD8F4 /* main.c in Sources */,
-				36A678F71BB7DC3F002CD8F4 /* transpose.c in Sources */,
+				36E687911C40EECC0050B9E3 /* main.c in Sources */,
+				36E687921C40EECC0050B9E3 /* transpose.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +241,7 @@
 				36A678ED1BB7DC2B002CD8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
